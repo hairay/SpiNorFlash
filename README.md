@@ -6,3 +6,7 @@ How to use spidev driver to write data to SPI NOR flash
 這個程式大部份的code來至linux kernel drivers\mtd\devices\m25p80.c
 
 
+使用方式
+
+./flash /dev/spidev0.0 data.bin
+
